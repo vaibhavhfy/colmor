@@ -1,0 +1,422 @@
+@media screen and (min-width: 900px) {
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .mobile {
+        display: none;
+    }
+
+    .mblogo {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        height: 64px;
+        top: 0;
+        z-index: 100;
+        background-color: white;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        float: left;
+        height: 32px;
+        padding-left: 24px;
+    }
+
+    .logo_colmar,
+    .logo_academy {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .logo_colmar {
+        color: gray;
+    }
+
+    .logo_academy {
+        color: lightgray;
+    }
+
+    .menu {
+        padding-right: 24px;
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .nav {
+        display: flex;
+        align-items: right;
+        list-style: none;
+        float: right;
+        text-align: right;
+    }
+
+    .nav li {
+        padding-left: 16px;
+    }
+
+    main {
+        padding-top: 64px;
+        width: 100%;
+    }
+
+    .start {
+        background-color: lightgrey;
+        color: rgb(70, 68, 68);
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+    }
+
+    .start img {
+        width: 60%;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .learning img {
+        width: 340px;
+    }
+
+    .learning h1 {
+        font-weight: bolder;
+    }
+
+    .learning h3,
+    p {
+        text-align: center;
+        color: black;
+    }
+
+    .start_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .start_text button {
+        background-color: rgb(70, 68, 68);
+        color: white;
+        box-sizing: content-box;
+        width: 90%;
+        height: 10%;
+        top: 8px;
+        bottom: 8px;
+    }
+
+    .practicing {
+        display: flex;
+        width: 100%;
+        padding-bottom: 32px;
+        color: rgb(70, 68, 68);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .p_left {
+        width: 60%;
+    }
+
+    .p_left img {
+        width: 100%;
+    }
+
+    .p_left h1,
+    .p_left p {
+        padding-left: 16px;
+    }
+
+    .p_right {
+        width: 40%;
+    }
+
+    .orientation,
+    .campus,
+    .guest {
+        display: flex;
+    }
+
+    .guest {
+        background-color: lightgray;
+    }
+
+    .orientation img,
+    .campus img,
+    .guest img {
+        width: 35%;
+        height: auto;
+        padding: 16px;
+    }
+
+    .orientation_date,
+    .our_campus,
+    .guest_lecture {
+        width: 65%;
+        padding: 8px;
+    }
+
+    .read_more {
+        color: rgb(0, 132, 255);
+    }
+
+    .learning {
+        display: flex;
+        flex-direction: column;
+        color: rgb(70, 68, 68);
+        background-color: lightgrey;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 32px;
+        width: 100%;
+    }
+
+    .learning h1 {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .start_learning {
+        list-style: none;
+        display: flex;
+    }
+
+    .start_learning li {
+        margin: 32px;
+        width: 33%;
+    }
+
+    .software_engineering,
+    .computer_art,
+    .design,
+    .data,
+    .business,
+    .marketing {
+        background-color: white;
+    }
+
+    .thesis h1 {
+        margin-top: 10px;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(44, 43, 43);
+    }
+
+    .logoo {
+        padding: 2px 26px;
+
+    }
+
+    .logoo a {
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .head-text {
+        float: right;
+        margin-top: -30px;
+        padding-right: 10px;
+        color: black;
+    }
+
+    .head-text a {
+        color: black;
+    }
+
+    .box-1 {
+        height: 600px;
+        width: 100%;
+        background-color: #cac8c8;
+    }
+
+    .box1-img img {
+        height: 478px;
+        width: 748px;
+        margin: 92px 33px;
+    }
+
+
+
+
+    .box1-text {
+        float: right;
+        margin: -438px 67px;
+        /* padding: -12px -7px; */
+
+    }
+
+    .box1-text a {
+        text-decoration: none;
+        font-size: xx-large;
+        font-weight: bold;
+        color: rgb(52, 51, 51);
+        padding: 2px 2px;
+        margin: 2px 2px;
+
+    }
+
+    .box1-text p {
+        padding: 2px 2px;
+        margin: 2px 2px;
+
+    }
+
+    .box-2img img {
+        height: 478px;
+        width: 748px;
+        margin: 46px 33px;
+
+    }
+
+    .t_left video {
+        height: 394px;
+        width: 718px;
+        margin: 45px 5px;
+    }
+
+    #kt {
+        text-align: left;
+    }
+
+    .t_right {
+        float: right;
+        margin: -550px 32px;
+
+    }
+
+    .fisma h2,
+    p,
+    .then_now {
+        text-align: center;
+
+    }
+
+    .t_right img {
+        width: 160px;
+        margin: 2px 146px;
+    }
+
+    .footerr {
+        background-color: rgb(81, 77, 77);
+    }
+
+    .left-footer p {
+        float: left;
+        color: rgb(61, 61, 61);
+
+    }
+
+    .right-footer a {
+        float: right;
+        padding-right: 10px;
+        color: rgb(61, 61, 61);
+    }
+
+    .p_left p {
+        text-align: left;
+    }
+
+    .p_left img {
+        height: 414px;
+        width: 688px;
+        margin: 16px 30px;
+    }
+    .Start_learning{
+        display: none;
+    }
+    .thesis_exhibits{
+        display: none;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+
+    .box1-img img {
+        height: 299px;
+        width: 100%;
+        margin: 2px 1px;
+    }
+
+    .box1-text {
+        text-align: center;
+        margin: 22px 26px;
+    }
+
+    .head-text {
+        display: none;
+    }
+
+    .logoo a {
+        display: none;
+    }
+
+    .logoo img {
+
+        margin: 12px 28px;
+
+    }
+
+    .box1-text a {
+        color: #5487be;
+        text-decoration: none;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: xx-large;
+    }
+
+    .p_left {
+        display: none;
+    }
+
+    .p_right img {
+
+        width: 100%;
+        height: 202px;
+        padding: 0px 0px;
+        margin: 2px;
+
+    }
+    .p_right{
+        text-align: center;
+    }
+    .learning{
+        display: none;
+    }
+    .Start_learning h1{
+        text-align: center;
+    }
+    .list-group li{
+        font-size: x-large;
+        background-color: #cac8c8;
+        color: rgb(82, 79, 79);
+    }
+    .container li{
+     margin: 2px 2px;
+    }
+    .list-group li:hover{
+        color:black;
+    }
+    .thesis{
+        display: none;
+    }
+    .right-footer{
+        display:none;
+    }
+
+
+
+
+}
